@@ -17,6 +17,11 @@ public class FirstController {
         return firstService.returnString();
     }
 
+    @GetMapping(value = "/")
+    public String getString1(){
+        return "to test it on tomcat";
+    }
+
     @PostMapping(value = "/product")
     public  String search1(){
         return  "Hello ji";
