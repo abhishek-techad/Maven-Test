@@ -19,7 +19,7 @@ public class FirstController {
 
     @GetMapping(value = "/")
     public String getString1(){
-        return "Hello bro";
+        return "to test it on tomcat";
     }
 
     @PostMapping(value = "/product")
